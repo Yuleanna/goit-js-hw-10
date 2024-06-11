@@ -22,18 +22,24 @@
   -webkit-text-size-adjust: 100%;
 }
 .timer {
+  margin: 10px;
+  width: 20%;
   display: flex;
-  gap: 10px;
+  justify-content: space-between;
 }
 .field {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-flow: column;
+  font-size: 28px;
 }
 .value {
-  font-size: 2rem;
-  font-weight: bold;
+  font-weight: 1000;
 }
 .label {
   font-size: 1rem;
+}
+
+.input:focus {
+  outline: transparent;
+  border-color: #4e75ff;
 }
